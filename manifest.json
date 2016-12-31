@@ -1,8 +1,8 @@
 {
   "name": "StalkerMode",
-  "version": "0.0.3",
+  "version": "0.0.6",
   "manifest_version": 2,
-  "description": "Disables/Hides fb buttons (like, comment, add etc)",
+  "description": "Disables/Hides fb social activity buttons (like, comment, share, add etc)",
   "background": {
     "scripts": [
       "background.js"
@@ -10,7 +10,7 @@
     "persistent": true
   },
   "browser_action": {
-    "default_title": "Click to activate/Refresh page to stop",
+    "default_title": "Click to activate for each fb Tab",
 	"default_icon": "no-facebook-like.png"
   },
   "permissions": [
